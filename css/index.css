@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Avenir Next",Avenir,"Helvetica Neue",Helvetica,"Lantinghei SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",STHeiti,"WenQuanYi Micro Hei",SimSun,sans-serif!important;
+	background: #eee;
+}
+
+.header a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+    font-family: "Microsoft YaHei","微软雅黑"!important;
+}
+
+.logo{
+	margin-left: 60px;
+    font-size: 28px;
+    font-family: "Microsoft YaHei","微软雅黑"!important;
+    font-weight: bolder;
+}
+
+.logo em{
+	font-style: normal;
+}
+
+.logo .em1{
+	color: #0bb9f8;
+}
+
+.logo .em2{
+	color: black;
+}
+
+nav ul li {
+	-webkit-transition: background-color .3s;
+    -moz-transition: background-color .3s;
+    -o-transition: background-color .3s;
+    -ms-transition: background-color .3s;
+    transition: background-color .3s;
+    padding: 0;
+}
+
+.sidebar {
+	position: fixed;
+    top: 100px;
+    left: 0;
+    font-size: 18px;
+    width: 190px;
+    background-color: #fff;
+}
+
+.sidebar li {
+	list-style-type: none;
+    display: block;
+    cursor: pointer;
+    transition: all .3s;
+    position: relative;
+}
+
+.sidebar li:hover {
+	background-color: #B7D8F6;
+}
+
+.sidebar li a {
+	display: block;
+    padding: 5px 5px 5px 30px;
+    color: #333;
+}
+
+.sidebar li em {
+    font-style: normal;
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+
+.sidebar li img {
+    width: 36px;
+    height: 36px;
+    border: none;	
+}
+
+.main-content {
+    margin-left: 200px;
+    padding-top: 26px;
+}
+
+
+.main-content .slider-wapper {
+    width: 940px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.index-title {
+    width: 960px;
+    margin: 30px auto 0;
+    font-size: 20px;
+    color: #5d4037!important;
+    padding: 10px;
+}
+
+.index-title a, .index-title>p {
+    color: #000!important;
+    padding: 5px;
+    font-weight: 600;
+    display: block;
+}
+
+hr {
+	height:1px;
+}
+
+.index-title .hr1 {
+    border: none;
+    border-top: 5px solid #0bb9f8;
+    width: 110px;
+    display: inline-block;
+}
+
+.index-title .hr2 {
+    display: inline-block;
+    width: 810px;
+    border: none;
+    border-top: 2px solid #d9d9d9;
+}
+
+.components {
+	width: 900px;
+    margin: 10px auto;
+}
+
+.card-content {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 20px;
+    border-radius: 0 0 2px 2px;
+}
+
+.components .card {
+    margin: 10px;
+    width: 280px;
+    padding: 0;
+    transition: all .3s;
+    background: #f9f9f9;
+}
+
+.components .card .card-image {
+    height: 280px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.components .card .item-price {
+    color: #EF5350;
+    font-weight: 600;
+    padding-bottom: 0;
+    font-size: 20px;
+}
+
+.components .card .item-location {
+    padding: 0 20px 20px;
+    color: #999;
+    font-size: 14px;
+}
+
+.card-content p {
+    height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0;
+    color: inherit;
+}
+
+.card .item-location p:first-child {
+    float: right;
+    color: #42a5f5;
+    padding: 5px 10px;
+    line-height: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    text-align: center;
+}
